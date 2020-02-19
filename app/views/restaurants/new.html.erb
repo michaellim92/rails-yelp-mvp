@@ -3,6 +3,6 @@
   <%= t.input :name %>
   <%= t.input :address %>
   <%= t.input :phone_number %>
-  <%= t.input :category %>
+  <%= t.input :category, collection: ["chinese", "italian", "japanese", "french", "belgian"] %>
   <%= t.submit %>
 <% end %>
